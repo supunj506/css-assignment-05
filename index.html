@@ -1,0 +1,250 @@
+<!--* @author : @MJ-->
+<!--* Date    : 6/15/2023-->
+<!--* Time    : 1:30 PM-->
+<!--* Project : css-aasignment-05-->
+<!--* Created by IntelliJ IDEA.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Assignment 05</title>
+    <link rel="stylesheet" href="assets/css_lib/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap" rel="stylesheet">
+
+    <style>
+        header {
+            display: flex;
+            position: relative;
+            box-shadow: 6px 8px 20px 5px black;
+            height: 10vh;
+
+        }
+
+        #logo {
+            width: 180px;
+            position: relative;
+            left: 20px;
+        }
+
+        header > nav {
+            position: absolute;
+            right: 10px;
+            top: 0;
+        }
+
+        header > nav > ul {
+            margin: 5px;
+        }
+
+        header > nav > ul > li {
+            display: inline-block;
+            padding: 20px;
+            font-size: 23px;
+            cursor: pointer;
+        }
+        /*------------------------------------------------------------------------------------------------------------------*/
+        main {
+            display: flex;
+        }
+
+        aside {
+            width: 20%;
+            background-color: blueviolet;
+
+        }
+
+        aside {
+            position: relative;
+        }
+
+        aside > nav > ul {
+            margin: 0;
+            position: relative;
+            top: 30px;
+            left: 30px;
+            font-size: 23px;
+            list-style-type: none;
+        }
+
+        aside > nav > ul > li {
+            padding: 15px;
+            cursor: pointer;
+        }
+        /*------------------------------------------------------------------------------------------------------------------*/
+        main > section {
+            position: relative;
+            width: 80%;
+        }
+
+        main > section > div {
+            display: flex;
+            width: 95%;
+            height: 40vh;
+            position: relative;
+            left: 0;
+            right: 0;
+            top: 10px;
+            bottom: 0;
+            margin: auto;
+
+
+        }
+
+        main > section > div > div {
+            background-color: dimgray;
+            border: 1px solid green;
+            flex-grow: 1;
+
+        }
+        main > section > div > div > img {
+            width: 100%;
+            height: 100%;
+        }
+        article {
+            width: 96%;
+            position: relative;
+            left: 0;
+            right: 0;
+            top: 10px;
+            bottom: 0;
+            margin: auto;
+        }
+        article > p {
+            font-size: 20px;
+
+        }
+
+        footer{
+            height: 40px;
+            width: 100%;
+            background-color: dimgray;
+            position: relative;
+
+
+        }
+        footer > P {
+            text-align: center;
+            margin: 0;
+            position: relative;
+            top:10px;
+
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<header>
+    <img alt="ijse.png" id="logo" src="assets/png/ijseLogo.png">
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Service</li>
+            <li>Contact</li>
+            <li>About us</li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <aside>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Service</li>
+                <li>Contact</li>
+                <li>About us</li>
+            </ul>
+        </nav>
+    </aside>
+    <section>
+        <div>
+            <div> <img src="assets/png/rocket-3972_256.gif" alt="rocket.png"></div>
+            <div> <img src="assets/png/rocket-3972_256.gif" alt="rocket.png"></div>
+            <div> <img src="assets/png/rocket-3972_256.gif" alt="rocket.png"></div>
+
+        </div>
+
+        <article>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae cum debitis dolor dolore dolorem
+                fugiat fugit ipsa ipsam itaque libero nobis quam quasi ratione rerum, totam ullam voluptate? Ab
+                consectetur fugit necessitatibus officiis similique? Adipisci aut, beatae culpa doloremque illum non
+                officiis perferendis quis quisquam sed suscipit, voluptatum. At, corporis deserunt dolorum earum esse
+                excepturi
+            </p>
+            <p>
+                facilis hic in magnam minus molestias nobis numquam possimus praesentium, provident saepe sit
+                tenetur unde velit voluptas! Ad consequuntur est et, ex numquam perspiciatis porro ullam unde. Ab ad
+                beatae consequatur, doloremque eius et eum illo illum iure labore laborum magni minus, nam optio
+                perferendis quae quasi qui totam veniam voluptates. Ad aliquid dolorem fugit illo laboriosam magni
+                molestiae, repellendus voluptatibus. Accusamus asperiores, autem beatae deleniti, ea eaque eius esse est
+                eum eveniet explicabo fugit inventore ipsum, iure laborum neque nobis pariatur quasi quia ratione rem
+                repellat
+
+            </p>
+            <!--            <p>reprehenderit soluta temporibus totam ullam ut voluptatem! Adipisci alias amet cupiditate-->
+            <!--                dignissimos distinctio enim eveniet excepturi incidunt ipsum labore, libero magnam maiores minima,-->
+            <!--                molestiae natus nemo nihil quaerat quia quis quisquam ratione recusandae repudiandae rerum soluta ullam-->
+            <!--                vitae voluptas! Asperiores at cumque dicta molestias porro quis sunt tenetur vel! A ab accusamus amet,-->
+            <!--                aperiam atque consequatur doloribus eos, et hic laudantium praesentium repellat veniam? Aliquid delectus-->
+            <!--                deserunt explicabo labore molestias possimus quas quod, repellendus? Aliquam animi delectus deleniti,-->
+            <!--                eius eligendi facere inventore, maxime minima numquam perferendis praesentium ratione similique vero-->
+            <!--                vitae voluptas. Asperiores aspernatur atque aut beatae dolor doloribus earum eligendi esse ex facilis-->
+            <!--                fugiat,-->
+            <!--            </p>-->
+            <!--            <p>fugit hic illum incidunt inventore ipsum itaque magnam mollitia nihil nisi nobis omnis quam quas-->
+            <!--                quibusdam quis quisquam quo quos rerum sapiente sed totam veniam vitae voluptatum. Autem culpa delectus-->
+            <!--                dicta distinctio dolorem doloremque dolorum, facere fuga magnam minus molestiae optio provident-->
+            <!--                quibusdam quisquam quod ratione sed ullam. Accusantium aperiam, aspernatur est id inventore ipsa-->
+            <!--                provident quas tempora! Deserunt distinctio doloremque doloribus nihil officia? Ad adipisci amet aperiam-->
+            <!--                corporis dignissimos eos facere harum inventore laboriosam molestiae, officia officiis porro quasi-->
+            <!--                quibusdam quod sequi tenetur, vel veritatis vitae voluptatum! Aliquid commodi delectus deserunt dicta-->
+            <!--                error esse est ex expedita incidunt iste, laborum minima mollitia possimus reiciendis sapiente sit totam-->
+            <!--                voluptatibus! Earum incidunt iste vel voluptatum. Consequatur consequuntur corporis doloribus eos fuga-->
+            <!--                modi praesentium quasi sequi temporibus veritatis. Ad animi atque autem consectetur deserunt eos esse-->
+            <!--                fugiat illum laborum magnam maxime molestiae nam necessitatibus nesciunt omnis possimus, quas reiciendis-->
+            <!--                saepe vel vitae. Adipisci alias aperiam assumenda commodi delectus, doloremque explicabo impedit, ipsum-->
+            <!--                libero magnam mollitia odio porro quaerat quibusdam quod, suscipit tempora totam vero! Consequatur-->
+            <!--                cupiditate distinctio dolore earum eligendi in perferendis placeat praesentium quas ratione repellat,-->
+            <!--                reprehenderit totam veritatis? Accusantium ad aliquam aperiam aspernatur aut, culpa cum cupiditate-->
+            <!--                deleniti deserunt dignissimos eaque facilis, fugit illum incidunt ipsa ipsum laborum laudantium libero-->
+            <!--                maiores minus modi molestiae nemo neque nesciunt nihil nisi non officia omnis possimus provident quaerat-->
+            <!--                quisquam reiciendis repellendus tempore ullam velit voluptate. Asperiores aspernatur autem cumque-->
+            <!--                delectus dolorem eligendi exercitationem impedit maiores minus natus nemo nesciunt nihil odio officia-->
+            <!--                omnis, quas quis quo recusandae reprehenderit, sapiente tempore unde voluptates. Ab aperiam assumenda-->
+            <!--                cupiditate error facere fuga hic inventore ipsam neque nesciunt non omnis quae quaerat quibusdam quidem,-->
+            <!--                ratione recusandae rem repellat rerum similique sunt velit voluptas voluptatum! Laudantium nemo officia-->
+            <!--                placeat? Autem consequatur culpa libero pariatur perferendis quam ratione repellendus temporibus? A-->
+            <!--                dolor fuga labore praesentium qui quo ratione. Architecto, consequuntur doloribus enim explicabo fugit-->
+            <!--                in itaque iure magni modi nihil pariatur praesentium quis quos rerum soluta, velit voluptatibus. A-->
+            <!--                beatae culpa dolor iste molestiae perferendis quasi recusandae reprehenderit vitae? Accusantium amet-->
+            <!--                animi cupiditate dolore eos harum, impedit iusto omnis. Consectetur quia quos rem sequi suscipit-->
+            <!--                temporibus. Alias, excepturi, hic? Consequuntur fugit hic magnam odio quas repellendus totam. Amet-->
+            <!--                assumenda at corporis, doloremque eligendi est eum expedita ipsam ipsum nam nesciunt nobis qui quos-->
+            <!--                recusandae sapiente ullam vero voluptas. Distinctio dolor dolorem est illo impedit iste laudantium-->
+            <!--                nulla, optio possimus repudiandae, similique voluptate! Ab accusamus accusantium ad adipisci alias amet-->
+            <!--                architecto asperiores cum cupiditate debitis deserunt dolorem doloremque dolorum earum eos error-->
+            <!--                excepturi, explicabo harum ipsam maiores nam nesciunt nobis odio perspiciatis porro praesentium qui-->
+            <!--                quibusdam quos repellendus sed sit tenetur veniam voluptatibus! Ad blanditiis delectus, eum fugiat-->
+            <!--                obcaecati repellendus saepe unde. Aliquam assumenda atque autem beatae culpa, cum debitis delectus-->
+            <!--                deleniti, dolorum est et eum exercitationem labore nemo nisi non officia officiis quo repudiandae-->
+            <!--                tempore velit voluptas voluptatibus, voluptatum? Accusantium aspernatur at, deleniti dignissimos dolor-->
+            <!--                dolore in labore libero necessitatibus nostrum odio repudiandae ut voluptates. Accusantium asperiores-->
+            <!--                .</p>-->
+
+        </article>
+
+    </section>
+
+</main>
+<footer>
+    <p>Developed by CCNS</p>
+</footer>
+
+</body>
+</html>
