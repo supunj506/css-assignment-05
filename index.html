@@ -132,19 +132,175 @@
         }
 
 
+        /*--------             375px-425px             ------------------------------------------------------------------*/
+
+        @media all and (min-width: 375px) and (max-width: 426px) {
+
+            #logo {
+                position: relative;
+                width: 100px;
+                height: 45px;
+                left: 140px;
+            }
+            header > nav {
+                left: 0;
+                right: 0;
+                top: 25px;
+            }
+
+            header > nav > ul {
+                margin: 0;
+                padding: 0;
+            }
+
+            header > nav > ul > li {
+                display: inline-block;
+                padding: 15px;
+                font-size: 18px;
+                cursor: pointer;
+            }
+            /*-----------------------------------*/
+            main {
+                display: block;
+                width: 100%;
+            }
+
+            aside {
+                display: none;
+            }
+            /*-------------------------------------*/
+
+            main > section {
+                position: relative;
+                width: 100%;
+            }
+
+            main > section > div {
+                display: block;
+                width: 95%;
+                height:90vh;
+                border: 3px solid black;
+            }
+            main > section > div > div {
+                background-color: dimgray;
+                border: 1px solid green;
+                width: 100%;
+                height: calc(100%/3);
+            }
+            main > section > div > div > img {
+                width: 100%;
+                height: 100%;
+            }
+            /*------------------------------------*/
+            article > p {
+                font-size: 16px;
+
+            }
+            /*-------------------------------------*/
+            footer{
+                height: 40px;
+                width: 100%;
+                background-color: dimgray;
+
+            }
+            footer > P {
+                text-align: center;
+                margin: 0;
+                top:10px;
+
+            }
+
+        }
+
+
+
+
+
+        /*--------             320px -375             ------------------------------------------------------------------*/
+
+        @media all and (min-width: 320px) and (max-width: 374px) {
+
+            #logo {
+                position: relative;
+                width: 100px;
+                height: 40px;
+                left: 130px;
+            }
+            header > nav {
+                left: 20px;
+                top: 30px;
+            }
+
+            header > nav > ul {
+                margin: 0;
+                padding: 0;
+            }
+
+            header > nav > ul > li {
+                display: inline-block;
+                padding: 10px;
+                font-size: 18px;
+                cursor: pointer;
+            }
+            /*-----------------------------------*/
+            main {
+                display: block;
+                width: 100%;
+            }
+
+            aside {
+                display: none;
+            }
+            /*-------------------------------------*/
+
+            main > section {
+                position: relative;
+                width: 100%;
+            }
+
+            main > section > div {
+                display: block;
+                width: 95%;
+                height:90vh;
+                border: 3px solid black;
+            }
+            main > section > div > div {
+                background-color: dimgray;
+                border: 1px solid green;
+                width: 100%;
+                height: calc(100%/3);
+            }
+            main > section > div > div > img {
+                width: 100%;
+                height: 100%;
+            }
+            /*------------------------------------*/
+            article > p {
+                font-size: 16px;
+
+            }
+            /*-------------------------------------*/
+            footer{
+                height: 40px;
+                width: 100%;
+                background-color: dimgray;
+
+            }
+            footer > P {
+                text-align: center;
+                margin: 0;
+                top:10px;
+
+            }
+
+        }
+
+
 
 
 
 /*--------             320px              ------------------------------------------------------------------*/
         @media all and (max-width: 320px) {
-
-            header{
-                display: block;
-                width: 100%;
-                height: 9vh;
-                position: relative;
-
-            }
             #logo {
                 position: relative;
                 width: 100px;
@@ -152,14 +308,13 @@
                 left: 100px;
             }
             header > nav {
-                position: relative;
-                left: 0;
-                top: -20px;
+                left: 4px;
+                top: 30px;
             }
 
             header > nav > ul {
+               margin: 0;
                 padding: 0;
-
             }
 
             header > nav > ul > li {
@@ -221,6 +376,10 @@
             }
 
         }
+
+
+
+
 
 
     </style>
